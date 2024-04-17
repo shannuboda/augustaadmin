@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+
+
+.tabref {
+    font-family: Arial, Helvetica, sans-serif!important;
+    border-collapse: collapse!important;
+    width: 100%!important;
+  }
+  
+  .tabref td, .tabref th {
+    border: 1px solid #ddd !important;
+    padding: 8px !important;
+  }
+  
+  .tabref tr:nth-child(even){background-color: #f2f2f2 !important;}
+  
+  .tabref tr:hover {background-color: #ddd !important;}
+  
+  .tabref th {
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    text-align: left !important;
+    background-color: #04AA6D !important;
+    color: white !important;
+  }
+  
+  .tabref .button1{
+    
+    
+   
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 4px;
+    font-size: 14px;
+    height: 30px;
+    padding: 0px 15px;
+    text-shadow: rgb(0 0 0 / 25%) 0px 3px 8px;
+    background: linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%);
+    transition: all 0.5s ease 0s;
+    
+    
+    
+  }
+  .tabref .button1:hover{
+    box-shadow: rgb(80 63 205 / 50%) 0px 1px 40px;
+    transition: all 0.1s ease 0s;
+}
+  .tabref .button2{
+    
+   
+   
+    display: inline-block;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 13px;
+    height: 30px;
+    background-color: #9147ff;
+    color: white;
+    padding: 0 10px;
+    
+  }
+  .tabref .button2:hover {
+    background-color: #772ce8;
+}
+
+
+
+.container1 {
+  border: 2px solid black;
+  width: auto;
+  height: 165vh;
+}
+header {
+  background: #c3f2ff;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 8rem;
+}
+.rh2 {
+  text-align: center;
+  margin-left: 2rem;
+}
+.rh1 img {
+  width: 3rem;
+}
+.rh2 h3,
+p {
+  color: #3387c3;
+}
+.rh2 h4 {
+  color: rgba(233, 17, 17, 0.884);
+}
+.hr {
+  background: red !important;
+  height: 0.2rem;
+}
+img {
+  width: 9rem;
+  height: 4rem;
+}
+
+.rh2 h3 {
+  color: #3387c3;
+  font-size: 2.5rem;
+  margin-left: -3rem;
+}
+.rh2 p {
+  color: black;
+  font-size: 1rem;
+}
+.heading-1 h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+  font-weight: 699;
+  font-style: normal;
+  text-align: center;
+  text-decoration: underline;
+}
+.admissiondetails {
+  border: 2px solid #000000;
+  
+}
+.admn,
+.pd {
+  background: rgba(204, 230, 231, 0.705);
+  color: black;
+  font-size: 1rem;
+  font-weight: bolder;
+  padding: 0.2rem;
+}
+.admn1 {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+.Personaldetails {
+  margin-top: 0.5rem;
+  border: 1px solid #000000;
+}
+.p1 {
+  padding: 1rem;
+  display: flex;
+}
+.p2 {
+  padding: 1rem;
+  display: flex;
+  margin-top: -1rem;
+}
+.signatures {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2rem;
+  transform: translate(0%, 110%);
+}
+.signatures p {
+  color: #000000;
+}
+.admissiondetails-print{
+display: none;
+}
+@media print {
+  .admissiondetails-print{display: block;}
+  .admissiondetails{display: none;}
+  .container1 {
+  border: 2px solid black;
+  width: auto;
+  height: 98vh;
+}
+  .hr {
+    background: red !important;
+    height: 0.2rem;
+  }
+  img {
+    width: 9rem;
+    height: 4rem;
+  }
+  .rh2 {
+    margin-top: 4rem;
+   
+  }
+  .rh2 h3 {
+    color: #3387c3;
+    font-size: 2.5rem;
+    margin-left: -3rem;
+    margin-top: -3rem;
+  }
+  .rh2 p {
+    color: black;
+    font-size: 1rem;
+  }
+  .heading-1 h2 {
+    font-family: "Dancing Script", cursive;
+    font-size: 2rem;
+    font-weight: 699;
+    font-style: normal;
+    text-align: center;
+    text-decoration: underline;
+  }
+  .admissiondetails {
+    border: 2px solid #000000;
+  }
+  .admn,
+  .pd {
+    background: rgba(204, 230, 231, 0.705);
+    color: black;
+    font-size: 1rem;
+    font-weight: bolder;
+    padding: 0.2rem;
+  }
+  .admn1 {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  .Personaldetails {
+    margin-top: 0.5rem;
+    border: 1px solid #000000;
+  }
+  .p1 {
+    padding: 1rem;
+    display: flex;
+  }
+  .p2 {
+    padding: 1rem;
+    display: flex;
+    margin-top: -1rem;
+  }
+  .signatures {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2rem;
+    transform: translate(0%, 110%);
+  }
+  .signatures p {
+    color: #000000;
+  }
+}
