@@ -97,7 +97,7 @@ const UpdateData = async(IndexValue)=>{
                     <td>{res.EmailId}</td>
                     <td>{res.PaymentrefernceId}</td>
                     <td>{res.UTRNumber}</td>
-                    <td><button className='button1'onClick={()=>{Navigate(`/app/${res.id}`);}}>View</button></td>
+                    <td><button className='button1'onClick={()=>{Navigate(`/app/${res.id}`)}}>View</button></td>
                     <td>
                         <select name="" id="" value={res.Status} onChange={(e)=>{const updatedData = [...data];updatedData[index].Status =e.target.value;setData(updatedData);}}>
                             <option value="Inprogress">Inprogress</option>
